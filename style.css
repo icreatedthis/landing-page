@@ -1,3 +1,134 @@
 body {
-    background-color: rgb(251, 248, 225);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* headers and stuff */
+h1, h3 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 32px;
+    margin: 0px 16px 0px 0px;
+    padding: 0;
+    gap: 16px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/*         */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ac6e52;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-bottom: 5px black solid;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    padding: 16px;
+}
+
+.read {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    border: 10px black solid;
+}
+
+.review {
+    display: flex;
+    background-color: rgb(255, 234, 237);
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    gap: 16px;
+}
+
+.sax {
+    height: 283px;
+    display: flex;
+}
+
+.middle-right {
+    display: flex;
+    border: 10px rgb(178, 101, 101) solid;
+    background-color:rgb(199, 121, 121);
+    justify-content: flex-end;
+    margin-right: 150px;
+    gap: 16px;
+}
+
+.rate {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 16px;
+}
+
+video {
+    height: auto;
+    width: 500px;
+    padding: 0;
+    border: 10px rgb(178, 101, 101) solid;
+    margin-left: 150px;
+}
+
+.footer {
+    display: flex;
+    background-color: #3e1c28;
+    justify-content: space-evenly;
+}
+
+.bottom-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: large;
+    color: yellow;
+}
+
+.button {
+    background-color: yellow;
+    display: flex;
+
 }
